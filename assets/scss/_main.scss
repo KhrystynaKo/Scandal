@@ -16,5 +16,11 @@
         color: $grey;
       }
     }
+    &__img {
+      @media (max-width: 575.8px) {
+       padding: 0 $gap *3;
+        
+      }
+    }
   }
 }
