@@ -13,3 +13,11 @@
     }
   }
 }
+
+.navbar-right {
+  @media (max-width: 575.8px) {
+    width: 280px;
+    height: 100px;
+    display: none;
+  }
+}
